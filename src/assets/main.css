@@ -77,13 +77,13 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: orange; /* цвет зоны отслеживания */
+  background: rgba(255, 166, 0, 0); /* цвет зоны отслеживания */
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: blue; /* цвет бегунка */
+  background-color: rgba(0, 255, 81, 0); /* цвет бегунка */
   border-radius: 20px; /* округлось бегунка */
-  border: 3px solid orange; /* отступ вокруг бегунка */
+  border: 3px solid rgba(255, 166, 0, 0); /* отступ вокруг бегунка */
 }
 
 @media screen and (max-width: 640px) {
