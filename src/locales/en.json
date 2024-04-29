@@ -1,0 +1,70 @@
+{
+  "header": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "course": "COURSES",
+    "filial": "BRANCH",
+    "sponsors": "PARTNERS",
+    "contacts": "CONTACTS"
+  },
+  "one": {
+    "title": "Explore the world atom to atom!",
+    "text": "Gubkin Academy is a forge of geniuses in the art of words, world literature, algebra and physical laws! Here you will become a master of language, learn the secrets of the elements and master the universe of numbers. Join us and open up new horizons of knowledge!",
+    "add": "Join",
+    "sub": "Join us now for endless growth and development!"
+  },
+  "second": {
+    "title": "About",
+    "title2": "us",
+    "one": "Welcome to the Gubkin Akademy training center - your path to success and self-development!",
+    "two": "We are proud to be the official partner of Mr. Doniyor's school and the Branch of the Russian State University of Oil and Gas in Tashkent named after I.M. Gubkin. Here you will find not only high-quality training, but also unique opportunities to realize your talents and ambitions.",
+    "three": "Our mission is to develop the best qualities in every student, helping them master new knowledge, unlock their potential and achieve high results. We offer modern educational programs, experienced teachers and a cozy atmosphere for effective learning.",
+    "four": "Join us to gain confidence in your abilities, expand your horizons of knowledge and become a successful professional in your chosen field. Gubkin Akademy is your key to a bright and promising future!"
+  },
+  "third": {
+    "title": "Our",
+    "title2": "coruses",
+    "english": {
+      "title": "English",
+      "text": "Your path to mastery in English! Unleash your potential and gain confidence to communicate on a global scale."
+    },
+    "russian": {
+      "title": "Russian language",
+      "text": "Immerse yourself in the world of the Russian language with Gubkin Akademy! Expand your vocabulary, improve your literacy, and communicate like a professional."
+    },
+    "math": {
+      "title": "Mathematics",
+      "text": "Mathematics is the key to unraveling the world's mysteries! Gain confidence in numbers and logic with Gubkin Akademy - your partner for success and knowledge."
+    },
+    "physic": {
+      "title": "Physics",
+      "text": "Master the magic of the universe at Gubkin Akademy! Study physics with the best teachers and reach new heights in your understanding of the world around us!"
+    },
+    "sign": "sign up"
+  },
+  "fiveth": {
+    "title": "OUR",
+    "title2": "BRANCH",
+    "text": "TASHKENT, YUNUSBAD DISTRICT, AHMAD DONISH STREET, 20"
+  },
+  "sixth":{
+    "title": "ENQUIRE",
+    "title2": "NOW!",
+    "name": "Name",
+    "tel": "Phone",
+    "text": "We invite you to your first free English lesson to get to know the teacher comfortably and choose a suitable training program. Leave a request and we will contact you shortly!",
+    "btn": "Send"
+  },
+  "seventh": {
+    "title": "Feedbacks",
+    "text": "en",
+    "name": "name_en"
+  },
+  "eight": {
+    "title": "Our",
+    "title2": "partners"
+  },
+  "footer": "CONTACT US",
+  "send": "You have successfully submitted your request. The administrators will contact you soon."
+  
+}

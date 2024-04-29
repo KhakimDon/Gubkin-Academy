@@ -1,0 +1,135 @@
+@font-face {
+  font-family: gotempro;
+  src: url("./fonts/gotem/gothampro.ttf");
+}
+
+@font-face {
+  font-family: atypBold;
+  src: url("./fonts/atyp/AtypDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: atypMedium;
+  src: url("./fonts/atyp/AtypDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: atypLight;
+  src: url("./fonts/atyp/AtypDisplay-Light.ttf");
+}
+
+@media screen and (max-width: 1700px) {
+  #black2 {
+    height: 200px !important;
+    width: 200px !important;
+  }
+  #black3 {
+    left: 50px !important;
+    height: 350px !important;
+    width: 350px !important;
+  }
+
+  .second-section::before {
+    background-size: 350px !important;
+    background-position: 40px 130px !important;
+  }
+  .third-section::after{
+    background-size: 350px !important;
+    background-position: 40px 130px !important;
+  }
+
+  .second-section,.third-section {
+    background-position-y: 550px !important;
+    background-size: 400px 400px !important;
+  }
+
+  #grad{
+    height: 300px !important;
+    top: -10px !important;
+  }
+
+  .course {
+    /* background-size: 542px !important; */
+    background-position: 1090px 850px !important;
+  }
+  #course2{
+    height: 250px !important;
+    top: -10px !important;
+    right: -67px !important; 
+  }
+
+  #feed{
+    height: 70px !important;
+    left: -100px !important;
+  }
+  #feed2{
+    top: -80px !important;
+    left: -150px !important;
+    height: 460px !important;
+  }
+  
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 0px; /* ширина всей полосы прокрутки */
+}
+
+*::-webkit-scrollbar-track {
+  background: orange; /* цвет зоны отслеживания */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue; /* цвет бегунка */
+  border-radius: 20px; /* округлось бегунка */
+  border: 3px solid orange; /* отступ вокруг бегунка */
+}
+
+@media screen and (max-width: 640px) {
+  .sitata{
+    background-image: none !important;
+    border: 1px solid gray;
+    padding: 10px !important;
+  }
+  .second-section::before{
+    background-position: 320px 150px !important;
+    background-size: 120px !important;
+  }
+  .second-section::after{
+    background-position: -50px 380px !important;
+    background-size: 120px !important;
+  }
+  .second-section {
+    background-image: url("./assets/firstblack1.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px !important;
+    background-position-x: 50px !important;
+    background-attachment: fixed;
+    background-position-y: 720px !important;
+  }
+  .feedback{
+    background-size: 300px !important;
+  }
+  .db{
+    backdrop-filter: blur(30px);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .bgfeed{
+    background-size: 300px !important;
+  }
+  .swiper-slide {
+    padding: 15px !important;
+    height: 160px !important;
+    max-width: 100% !important;
+  }
+  .bgthis1{
+    background-size: 300px !important;
+    background-image: none !important;
+  }
+  .third-section::after {
+    opacity: 10% !important;
+  }
+}

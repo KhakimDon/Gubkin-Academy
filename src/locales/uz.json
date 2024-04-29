@@ -1,0 +1,69 @@
+{
+  "header": {
+    "home": "BOSH SAHIFA",
+    "about": "BIZ HAQIMIZDA",
+    "course": "KURSLAR",
+    "filial": "FILIAL",
+    "sponsors": "HAMKORLAR",
+    "contacts": "ALOQA"
+  },
+  "one": {
+    "title": "Dunyoni atomdan atomiga o'rganing!",
+    "text": "Gubkin akademiyasi so'z san'ati, jahon adabiyoti, algebra va fizik qonunlar bo'yicha daholar akademiyasi! Bu yerda siz til ustasiga aylanasiz, elementlar sirlarini o'rganasiz va raqamlar olamini o'zlashtirasiz. Bizga qo'shiling va bilimning yangi qirralarini oching!",
+    "add": "Qo'shilish",
+    "sub": "Cheksiz o'sish uchun bizga qo'shiling!"
+  },
+  "second":{
+    "title": "Biz",
+    "title2": "haqimizda",
+    "one": "Gubkin Akademiyasi o'quv markaziga xush kelibsiz - muvaffaqiyat va o'zingizni rivojlantirishga yo'l!",
+    "two": " Biz MrDoniyor's school va I.M.Gubkin nomidagi Rossiya davlat neft va gaz universitetining Toshkentdagi filialining rasmiy hamkori ekanligimizdan faxrlanamiz. Bu yerda siz nafaqat yuqori sifatli mashg'ulotlar, balki o'z iste'dod va ambitsiyalaringizni ro'yobga chiqarish uchun noyob imkoniyatlarni ham topasiz.",
+    "three": "Bizning vazifamiz - har bir o'quvchida eng yaxshi fazilatlarni rivojlantirish, ularga yangi bilimlarni o'zlashtirish, salohiyatini ochish va yuqori natijalarga erishishga yordam berishdir. Biz zamonaviy ta'lim dasturlarini, tajribali o'qituvchilarni va samarali o'rganish uchun qulay muhitni taklif etamiz.",
+    "four": "O'z qobiliyatingizga ishonch hosil qilish, bilim ufqingizni kengaytirish va tanlagan sohangizda muvaffaqiyatli mutaxassis bo'lish uchun bizga qo'shiling. Gubkin akademiyasi sizning yorqin va istiqbolli kelajak kalitingizdir!"
+  },
+  "third": {
+    "title": "Bizning",
+    "title2": "kurslar",
+    "english": {
+      "title": "Ingliz tili",
+      "text": "Ingliz tilini o'zlashtiring! O'z salohiyatingizni ishga soling va global miqyosda muloqot qilish uchun ishonchga ega bo'ling."
+    },
+    "russian": {
+      "title": "Rus tili",
+      "text": "Gubkin akademiyasi bilan rus tili dunyosiga sho'ng'in! So'z boyligingizni kengaytiring, savodxonligingizni oshiring va professional kabi muloqot qiling."
+    },
+    "math": {
+      "title": "Matematika",
+      "text": "Matematika - bu dunyo sirlarini ochishning kalitidir! Muvaffaqiyat va bilim uchun hamkoringiz Gubkin akademiyasi bilan raqamlar va mantiqqa ishonchni qozoning."
+    },
+    "physic": {
+      "title": "Fizika",
+      "text": "Gubkin akademiyasida koinot sehrini o'zlashtiring! Fizikani eng yaxshi o'qituvchilar bilan o'rganing va atrofimizdagi dunyoni tushunishda yangi cho'qqilarni zabt eting!"
+    },
+    "sign": "Ariza qoldirish"
+  },
+  "fiveth": {
+    "title": "BIZNI",
+    "title2": "FILIAL",
+    "text": "TOSHKENT, YUNUSBOD TUMANI, AHMAD DONISH KO'CHASI, 20-UY."
+  },
+  "sixth":{
+    "title": "Ariza",
+    "title2": "Qoldirish !",
+    "name": "Ism",
+    "tel": "Telefon",
+    "text": "O'qituvchi bilan bemalol tanishish va mos o'quv dasturini tanlash uchun sizni birinchi bepul ingliz tili darsingizga taklif qilamiz. So'rov qoldiring va biz tez orada siz bilan bog'lanamiz!",
+    "btn": "Yuborish"
+  },
+  "seventh": {
+    "title": "Izohlar",
+    "text": "uz",
+    "name": "name_uz"
+  },
+  "eight": {
+    "title": "Bizning",
+    "title2": "hamkorlarimiz"
+  },
+  "footer": "Biz bilan bog'laning",
+  "send": "Ariza qoldirildi. Tez orada siz bilan bog'lanishadi."
+}
