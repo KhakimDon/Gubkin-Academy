@@ -133,3 +133,14 @@
     opacity: 10% !important;
   }
 }
+
+body{
+  background-color: white !important;
+}
+#app{
+  background-color: white !important;
+}
+
+input{
+  background: white;
+}

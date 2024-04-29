@@ -48,21 +48,21 @@ export default {
 </script>
 
 <template>
-  <main>
+  <main class="bg-white">
     <Header />
     <section
-      class="second-section z-[10] relative h-[738px] sm:h-[max-content] sm:pb-[30px] w-[100%] mt-[75px] overflow-hidden">
+      class="second-section bg-white z-[10] relative h-[808px] sm:h-[max-content] sm:pb-[30px] w-[100%] pt-[75px] overflow-hidden">
       <div class="flex flex-col items-center pt-[45px] max-w-[1200px] mx-auto relative">
 
         <h3
-          class="sm:hidden flex items-center w-[max-content] sm:w-[90%] mx-auto text-[40px] sm:text-[30px] font-[400] font-[atypMedium]">
+          class="sm:hidden flex text-black items-center w-[max-content] sm:w-[90%] mx-auto text-[40px] sm:text-[30px] font-[400] font-[atypMedium]">
           <img class="h-[46px] mr-[10px] sm:h-[25px]" src="./assets/firstscreenTitle.png" alt="image">
           {{ $t("one.title") }}
           <!-- <span class="text-[#D34D26] text-[40px] font-[400] mx-[10px] sm:text-[30px] font-[atypMedium]">атом!</span> -->
         </h3>
 
         <h3
-          class="sm:flex hidden text-center items-start leading-[30px] w-[max-content] sm:w-[90%] mx-auto text-[40px] sm:text-[30px] font-[400] font-[atypMedium]">
+          class="sm:flex hidden text-black text-center items-start leading-[30px] w-[max-content] sm:w-[90%] mx-auto text-[40px] sm:text-[30px] font-[400] font-[atypMedium]">
           <img class="h-[46px] sm:h-[25px]" src="./assets/firstscreenTitle.png" alt="image">
           <p>{{ $t("one.title") }} </p>
         </h3>
@@ -75,7 +75,7 @@ export default {
           </a>
         </div>
         <a href="#application"
-          class="flex block w-[323px] cursor-pointer items-center font-[gotempro] font-[1000] p-[12px] pr-[15px] mt-[40px] border-[#D34D26] border-[2px] rounded-[8px]">
+          class="flex block w-[323px] text-black cursor-pointer items-center font-[gotempro] font-[1000] p-[12px] pr-[15px] mt-[40px] border-[#D34D26] border-[2px] rounded-[8px]">
           <p class="mr-[10px]">
             {{ $t("one.sub") }}
           </p>
@@ -89,9 +89,9 @@ export default {
     </section>
     <section id="aboutus" class="top-[75px] bg-black z-[20] overflow-hidden third-section">
       <div class="max-w-[1200px] z-[11] mx-auto pt-[30px] pb-[150px] sm:pb-[100px]">
-        <h2 class="text-[81px] sm:text-[50px] text-center uppercase font-[atypBold] mb-[20px] text-white"><span
+        <h2 class="text-[81px] sm:text-[50px] text-center uppercase font-[atypBold] mb-[20px] text-white "><span
             class="text-[#D34D26]">{{ $t("second.title") }}</span> {{ $t("second.title2") }}</h2>
-        <div class="text-white font-[gotempro] text-[18px] sm:w-[90%] sm:mx-auto sm:text-[14px] textshadow">
+        <div class="text-white font-[gotempro] text-[18px] sm:w-[90%] sm:mx-auto sm:text-[14px]  textshadow">
           <p class="mb-[30px]">
             {{ $t("second.one") }}
           </p>
@@ -112,7 +112,7 @@ export default {
     <section id="ourcourses" class="course  bg-[white] pt-[80px] pb-[100px] relative">
       <img id="grad" class="absolute h-[557px] sm:max-h-[300px] left-[-200px] top-[-12px] translate-y-[-50%] "
         src="./assets/coursedecor1.png" alt="image">
-      <h3 class="text-center mb-[25px] font-[atypBold] uppercase font-[1000] text-[81px] sm:text-[40px]">
+      <h3 class="text-center mb-[25px] font-[atypBold] uppercase font-[1000] text-[81px] text-black sm:text-[40px]">
         <span class="text-[#D34D26]"> {{ $t("third.title") }}</span>
         {{ $t("third.title2") }}
       </h3>
@@ -121,10 +121,10 @@ export default {
           class="blurss sm:h-[max-content] h-[249px] sm:px-[10px] sm:py-[15px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%] sm:min-w-[50%]">
           <div class="flex items-center">
             <img class="sm:h-[30px] mr-[10px]" src="./assets/1.png" alt="image">
-            <h4 class="uppercase font-[atypBold] font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
               $t("third.english.title") }} <span class="text-[#D34D26]">(IELTS/cefr)</span></h4>
           </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-[18px] sm:text-[14px] leading-[21px]">{{
+          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.english.text") }} </p>
           <a href="#application"
             class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
@@ -135,10 +135,10 @@ export default {
           class="blurss sm:min-w-[50%]  sm:h-[max-content] h-[249px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
           <div class="flex">
             <img class="sm:h-[30px] mr-[20px]" src="./assets/1.png" alt="image">
-            <h4 class="uppercase font-[atypBold] font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
               $t("third.russian.title") }} </h4>
           </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-[18px] sm:text-[14px] leading-[21px]">{{
+          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.russian.text") }}</p>
           <a href="#application"
             class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
@@ -149,10 +149,10 @@ export default {
           class="blurss sm:min-w-[50%] sm:h-[max-content] h-[249px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
           <div class="flex">
             <img class="sm:h-[30px] mr-[20px]" src="./assets/3.png" alt="image">
-            <h4 class="uppercase font-[atypBold] font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
               $t("third.math.title") }} <span class="text-[#D34D26]">(sat)</span></h4>
           </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-[18px] sm:text-[14px] leading-[21px]">{{
+          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.math.text") }} </p>
           <a href="#application"
             class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
@@ -162,10 +162,10 @@ export default {
           class="blurss sm:min-w-[50%] sm:h-[max-content] h-[249px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
           <div class="flex">
             <img class="sm:h-[30px] mr-[20px]" src="./assets/6.png" alt="image">
-            <h4 class="uppercase font-[atypBold] font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
               $t("third.physic.title") }} </h4>
           </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-[18px] sm:text-[14px] leading-[21px]">{{
+          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.physic.text") }}</p>
           <a href="#application"
             class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
@@ -191,21 +191,21 @@ export default {
 
     <section id="application" class="feedback bg-white relative overflow-hidden min-h-[400px] pt-[20px] pb-[50px]">
       <img id="feed2" class='absolute sm:hidden top-[-160px] left-[-130px]' src="./assets/filial3.png" alt="image">
-      <h3 class="text-center sm:text-[30px] mb-[25px] font-[atypBold] uppercase font-[1000] text-[81px]">
+      <h3 class="text-center text-black sm:text-[30px] mb-[25px] font-[atypBold] uppercase font-[1000] text-[81px]">
         <span class="text-[#D34D26]">{{ $t("sixth.title") }}</span>
         {{ $t("sixth.title2") }}
       </h3>
       <div class="max-w-[668px] w-[100%] mx-auto">
         <div class="sm:mx-auto sm:max-w-[80%] ">
-          <span class="font-[gotempro] font-[400] text-[16px]"> {{ $t("sixth.name") }}</span> <br>
+          <span class="font-[gotempro] text-black font-[400] text-[16px]"> {{ $t("sixth.name") }}</span> <br>
           <input required v-model="text"
-            class="text-[26px] pl-[20px] font-[600] font-[atypBold] mt-[18px] w-[100%] border-[2px] border-[#D34D26] sm:h-[50px] h-[101px] rounded-[5px]"
+            class="text-[26px] pl-[20px] text-black font-[600] font-[atypBold] mt-[18px] w-[100%] border-[2px] border-[#D34D26] sm:h-[50px] h-[101px] rounded-[5px]"
             type="text">
         </div>
         <div class="mt-[20px] sm:mx-auto sm:max-w-[80%] ">
-          <span class="font-[gotempro] font-[400] text-[16px]"> {{ $t("sixth.tel") }}</span> <br>
+          <span class="font-[gotempro] text-black font-[400] text-[16px]"> {{ $t("sixth.tel") }}</span> <br>
           <input required v-model="number"
-            class="text-[26px] pl-[20px] font-[600] sm:h-[50px]  font-[atypBold] mt-[18px] w-[100%] border-[2px] border-[#D34D26] h-[101px] rounded-[5px]"
+            class="text-[26px] pl-[20px] text-black font-[600] sm:h-[50px]  font-[atypBold] mt-[18px] w-[100%] border-[2px] border-[#D34D26] h-[101px] rounded-[5px]"
             type="text">
         </div>
         <div class="sm:text-center">
@@ -255,7 +255,7 @@ export default {
 
     <section id="sponsors" class=" bgthis1 sm:pb-[100px] pb-[50px]">
       <h3
-        class="text-center mb-[25px] sm:text-[40px] sm:pt-[50px] pt-[10px] font-[atypBold] uppercase font-[1000] text-[81px]">
+        class="text-center mb-[25px] text-black sm:text-[40px] sm:pt-[50px] pt-[10px] font-[atypBold] uppercase font-[1000] text-[81px]">
         <span class="text-[#D34D26]">{{ $t("eight.title") }} </span>
         {{ $t("eight.title2") }}
       </h3>
@@ -287,6 +287,7 @@ export default {
 </template>
 
 <style scoped>
+
 .bgthis {
   background-image: url("./assets/footer1.png");
   background-size: 538px;

@@ -5,9 +5,9 @@
                 <img class="h-[100%] w-[100%] object-cover" :src="item.img" alt="image">
             </div>
             <div class="flex flex-col items-start flex-1">
-                <p class="font-[gotempro] text-[15px] font-[700] sm:text-[12px] mb-[2px] text-[#474747]">{{ item.date_ru
+                <p class="font-[gotempro]  text-[15px] font-[700] sm:text-[12px] mb-[2px] text-[#474747]">{{ item.date_ru
                     }} </p>
-                <p class="text-blackl flex items-center font-[gotempro] text-[20px] sm:text-[16px] font-[700]">
+                <p class="text-blackl flex text-black items-center font-[gotempro] text-[20px] sm:text-[16px] font-[700]">
                     {{ item[$t("seventh.name")] }}
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-6 h-6 ml-[6px] text-[#D34D26]">
@@ -24,7 +24,7 @@
 
                 </div>
                 <p
-                    class="flex-1 text-left mt-[15px] sm:mt-[5px] font-[400] text-[16px] sm:text-[10px] sm:leading-[12px] font-[gotempro] leading-[15px]">
+                    class="flex-1 text-black text-left mt-[15px] sm:mt-[5px] font-[400] text-[16px] sm:text-[10px] sm:leading-[12px] font-[gotempro] leading-[15px]">
                     {{ item[$t("seventh.text")] }}
                 </p>
             </div>

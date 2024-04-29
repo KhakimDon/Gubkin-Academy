@@ -28,16 +28,16 @@ export default {
         <div class="max-w-[1200px] w-[100%] h-[100%] mx-auto flex justify-between items-center">
             <img class="h-[38px]" src="../assets/gubkinLogo.png" alt="image">
             <nav class="sm:hidden flex navigation items-center gap-[38px]">
-                <a class="uppercase text-[16px] font-[500] font-[gotempro]" href="#"> {{ $t("header.home")  }} </a>
-                <a class="uppercase text-[16px] font-[500] font-[gotempro]" href="#aboutus">{{ $t("header.about")  }} </a>
-                <a class="uppercase text-[16px] font-[500] font-[gotempro]" href="#ourcourses">{{ $t("header.course")  }} </a>
-                <a class="uppercase text-[16px] font-[500] font-[gotempro]" href="#filial">{{ $t("header.filial")  }} </a>
-                <a class="uppercase text-[16px] font-[500] font-[gotempro]" href="#sponsors">{{ $t("header.sponsors")  }} </a>
-                <a class="uppercase text-[16px] font-[500] font-[gotempro]" href="#contact">{{ $t("header.contacts")  }} </a>
+                <a class="uppercase text-black text-[16px] font-[500] font-[gotempro]" href="#"> {{ $t("header.home")  }} </a>
+                <a class="uppercase text-black text-[16px] font-[500] font-[gotempro]" href="#aboutus">{{ $t("header.about")  }} </a>
+                <a class="uppercase text-black text-[16px] font-[500] font-[gotempro]" href="#ourcourses">{{ $t("header.course")  }} </a>
+                <a class="uppercase text-black text-[16px] font-[500] font-[gotempro]" href="#filial">{{ $t("header.filial")  }} </a>
+                <a class="uppercase text-black text-[16px] font-[500] font-[gotempro]" href="#sponsors">{{ $t("header.sponsors")  }} </a>
+                <a class="uppercase text-black text-[16px] font-[500] font-[gotempro]" href="#contact">{{ $t("header.contacts")  }} </a>
             </nav>
             <div class="flex items-center">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="m-1 sm:mr-[15px] mr-[30px] border-b-[1px] uppercase">{{  $i18n.locale }}</div>
+                    <div tabindex="0" role="button" class="m-1 sm:mr-[15px] mr-[30px]  border-b-[1px] border-[black] text-black uppercase">{{  $i18n.locale }}</div>
                     <ul tabindex="0"
                         class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-[max-content]">
                         <li class="border-[1px] border-[#0000004d] rounded-[10px]" :class="{active:!this.uzbek}" @click="changeLanguage('uz'), $i18n.locale = 'uz'"><a class="font-[700] text-[14px]">UZ <img
