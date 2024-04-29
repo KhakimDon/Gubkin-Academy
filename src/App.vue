@@ -118,59 +118,69 @@ export default {
       </h3>
       <div class="max-w-[1200px] gap-[40px] w-[100%] sm:justify-center mx-auto flex flex-wrap">
         <div
-          class="blurss sm:h-[max-content] h-[249px] sm:px-[10px] sm:py-[15px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%] sm:min-w-[50%]">
-          <div class="flex items-center">
-            <img class="sm:h-[30px] mr-[10px]" src="./assets/1.png" alt="image">
-            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+          class="blurss sm:min-w-[50%] flex flex-col justify-between  sm:h-[max-content] min-h-[249px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
+          <div class="px-[20px] py-[18px]">
+            <div class="flex">
+              <img class="sm:h-[30px] mr-[10px]" src="./assets/1.png" alt="image">
+              <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[30px] mt-[15px] sm:text-[18px]">{{
               $t("third.english.title") }} <span class="text-[#D34D26]">(IELTS/cefr)</span></h4>
-          </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
+            </div>
+            <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.english.text") }} </p>
-          <a href="#application"
-            class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
-              $t("third.sign") }} </a>
-        </div>
-
-        <div
-          class="blurss sm:min-w-[50%]  sm:h-[max-content] h-[249px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
-          <div class="flex">
-            <img class="sm:h-[30px] mr-[20px]" src="./assets/1.png" alt="image">
-            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
-              $t("third.russian.title") }} </h4>
           </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
-            $t("third.russian.text") }}</p>
           <a href="#application"
-            class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
+            class="btn bg-[#D34D26] flex items-center w-[100%] rounded-none px-[15px] py-[8px] font-[atypBold] text-white uppercase">{{
+              $t("third.sign") }} </a>
+        </div>
+        <div
+          class="blurss sm:min-w-[50%] flex flex-col justify-between  sm:h-[max-content] min-h-[249px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
+          <div class="px-[20px] py-[18px]">
+            <div class="flex">
+              <img class="sm:h-[30px] mr-[20px]" src="./assets/1.png" alt="image">
+              <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+                $t("third.russian.title") }} </h4>
+            </div>
+            <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
+              $t("third.russian.text") }}</p>
+          </div>
+          <a href="#application"
+            class="btn bg-[#D34D26] flex items-center w-[100%] rounded-none px-[15px] py-[8px] font-[atypBold] text-white uppercase">{{
               $t("third.sign") }} </a>
         </div>
 
         <div
-          class="blurss sm:min-w-[50%] sm:h-[max-content] h-[249px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
-          <div class="flex">
-            <img class="sm:h-[30px] mr-[20px]" src="./assets/3.png" alt="image">
-            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+          class="blurss sm:min-w-[50%] flex flex-col justify-between  sm:h-[max-content] min-h-[249px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
+          <div class="px-[20px] py-[18px]">
+            <div class="flex">
+              <img class="sm:h-[30px] mr-[20px]" src="./assets/3.png" alt="image">
+              <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
               $t("third.math.title") }} <span class="text-[#D34D26]">(sat)</span></h4>
-          </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
+            </div>
+            <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.math.text") }} </p>
+          </div>
           <a href="#application"
-            class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
+            class="btn bg-[#D34D26] flex items-center w-[100%] rounded-none px-[15px] py-[8px] font-[atypBold] text-white uppercase">{{
               $t("third.sign") }} </a>
         </div>
+        
         <div
-          class="blurss sm:min-w-[50%] sm:h-[max-content] h-[249px] px-[20px] py-[18px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
-          <div class="flex">
-            <img class="sm:h-[30px] mr-[20px]" src="./assets/6.png" alt="image">
-            <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
+          class="blurss sm:min-w-[50%] flex flex-col justify-between  sm:h-[max-content] min-h-[249px] shadow-option border-[1px] border-[#D34D26] sm:max-w-[95%] rounded-[5px] flex-1 min-w-[40%]">
+          <div class="px-[20px] py-[18px]">
+            <div class="flex">
+              <img class="sm:h-[30px] mr-[20px]" src="./assets/6.png" alt="image">
+              <h4 class="uppercase font-[atypBold] text-black font-[1000] text-[33px] mt-[15px] sm:text-[18px]">{{
               $t("third.physic.title") }} </h4>
-          </div>
-          <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
+            </div>
+            <p class="font-[gotempro] font-[400] mt-[10px] text-black text-[18px] sm:text-[14px] leading-[21px]">{{
             $t("third.physic.text") }}</p>
+          </div>
           <a href="#application"
-            class="btn bg-[#D34D26] px-[15px] py-[8px] font-[atypBold] text-white uppercase mt-[15px] rounded-[5px]">{{
-              $t("third.sign") }}</a>
+            class="btn bg-[#D34D26] flex items-center w-[100%] rounded-none px-[15px] py-[8px] font-[atypBold] text-white uppercase">{{
+              $t("third.sign") }} </a>
         </div>
+        
+      
       </div>
     </section>
     <section id="filial" class=" filial overflow-hidden relative bg-black pt-[20px] pb-[50px]">
@@ -182,7 +192,7 @@ export default {
         {{ $t("fiveth.title2") }}
       </h3>
       <iframe class="max-w-[1200px] rounded-[10px] sm:h-[300px] mx-auto w-[100%] h-[500px]"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1259.0597505805379!2d69.2819940102555!3d41.36179422883174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d8c85382f63%3A0x30502569c71e766e!2sMr.DONIYOR&#39;s%20SCHOOL!5e0!3m2!1sru!2s!4v1714175928294!5m2!1sru!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1781.2940133399968!2d69.34194178479771!3d41.335668817848436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef45c4a6715f1%3A0x1539ad8e2d2b776e!2z0KTQuNC70LjQsNC70LAg0KDQk9CjINC90LXRhNGC0Lgg0Lgg0LPQsNC30LAg0LIg0LPQvtGA0L7QtNC1INCi0LDRiNC60LXQvdGC0LU!5e0!3m2!1sru!2s!4v1714420162176!5m2!1sru!2s"
         style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p
         class="font-[atypBold] sm:text-[20px] uppercase text-white max-w-[1200px] text-[33px] text-center mx-auto w-[100%] mt-[40px] text-[400]">
@@ -209,13 +219,15 @@ export default {
             type="text">
         </div>
         <div class="sm:text-center">
-          <button :class="{disabled: this.text.length < 1}" :disabled="{disabled: this.text.length < 1}" @click="send()" onclick="my_modal_1.showModal()"
+          <button :class="{ disabled: this.text.length < 1 }" :disabled="{ disabled: this.text.length < 1 }" @click="send()"
+            onclick="my_modal_1.showModal()"
             class="w-[100%] bg-[#D34D26] sm:text-[25px] font-[atypBold] text-[33px] uppercase text-white rounded-[5px] mt-[40px] sm:h-[70px] sm:mx-auto sm:max-w-[80%] h-[100px]">{{
               $t("sixth.btn") }}</button>
 
           <dialog id="my_modal_1" class="modal">
             <div class="modal-box">
-              <div class="border-[3px] mx-auto border-[#D34D26] rounded-[50%] w-[70px] h-[70px] flex items-center justify-center">
+              <div
+                class="border-[3px] mx-auto border-[#D34D26] rounded-[50%] w-[70px] h-[70px] flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" class="w-[40px] h-[40px] text-[#D34D26]">
                   <path stroke-linecap="round" stroke-linejoin="round"
@@ -287,7 +299,6 @@ export default {
 </template>
 
 <style scoped>
-
 .bgthis {
   background-image: url("./assets/footer1.png");
   background-size: 538px;
@@ -365,7 +376,7 @@ main {
   background-position: center center;
 }
 
-.disabled{
+.disabled {
   opacity: 60% !important;
 }
 
